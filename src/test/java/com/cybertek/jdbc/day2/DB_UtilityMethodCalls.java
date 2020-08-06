@@ -1,6 +1,6 @@
 package com.cybertek.jdbc.day2;
 
-import sun.security.pkcs11.Secmod;
+import com.cybertek.jdbc.utility.DB_Utility;
 
 public class DB_UtilityMethodCalls {
 
@@ -29,8 +29,9 @@ public class DB_UtilityMethodCalls {
         System.out.println("Getting all the data as list of row Map : \n"
                                     + DB_Utility.getAllDataAsListOfMap() );
 
-
         DB_Utility.destroy();
+
+
 
     }
 
